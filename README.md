@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+**URL-CHECKER APP**
+This is a small project created in duration of 1 day. The project was given by quickblicks.io in order to check my coding competency in 2nd round of interview.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For Backend code you can check the rep:  https://github.com/HuzaifaBanegar/url-checker-app-backend.git
 
-## Available Scripts
+The project is created using Following Tech Stacks: 
+1. Client side ->Recat
+2. Styling-> Tailwind, Material UI
+3. Backend -> NodeJs, Express
+4. Deployment -> **Netlify** for Frontend and **Render** for Backend
 
-In the project directory, you can run:
+The project consists of following feature:
+1.** URL Input Field**: The form should have an input field where the user can enter a URL. The field should include validation to ensure that the URL is in the correct format and that it is a valid URL. (We should have submit button as well)
+  
+2. **Three Options**: The form should have three options for the user to select from:
+A) **Check for a 200 Status:** This option should check whether the URL returns a 200 status code or not. If the URL returns a 200 status code, the user should receive a success message. If it does not return a 200 status code, the user should receive an error message.
+B) **SSL Certificate Verification:** This option should check whether the SSL certificate of the URL is valid or not. If the certificate is valid, the user should receive a success message. If it is not valid, the user should receive an error message.
+C)**Content of Robert.txt:** This option should check whether the content of robert.txt file exists or not on the server. If the file exists, the user should receive a success message. If it does not exist, the user should receive an error message.
 
-### `npm start`
+3. **Mobile-Friendly UI:** The form should have a mobile-friendly UI with a responsive layout that adjusts to different screen sizes. The UI should be intuitive and easy to use.
+   
+4. **Rate Limiter:** The API should include a rate limiter that limits the user to three API calls per five minutes to prevent excessive use.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Simple Method of use:
+1. NOTE: PLEASE INSTALL **ALLOW CORS** extension in your Chrome browser(preferable)
+2. Go to the netlify link: https://url-checker-app.netlify.app
+4. Try out the app. Please let me know if it can be improved in any ways :)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**SCREENSHOTS**
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+SUCCESS IMAGE:
+Desktop Version & Mobile Version
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div style="display:flex">
+  <img width="70%" alt="Screenshot 2023-07-22 170611" src="https://github.com/HuzaifaBanegar/url-checker-app-frontend/assets/93608114/12ebd9f1-686e-48c5-b0b2-0359e9601f9e">
+  <img height="100% alt="Screenshot 2023-07-22 170621" src="https://github.com/HuzaifaBanegar/url-checker-app-frontend/assets/93608114/d5cd6e2d-689c-4b77-b20e-1212a84ca683">
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ERROR IMAGE:
+Desktop Version & Mobile Version
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<div style="display:flex"> 
+  <img width="70%" alt="Screenshot 2023-07-22 170538" src="https://github.com/HuzaifaBanegar/url-checker-app-frontend/assets/93608114/f9b917c8-61e4-46a5-9ac8-cd4ec73bd482">
+  <img height="100%" alt="Screenshot 2023-07-22 170553" src="https://github.com/HuzaifaBanegar/url-checker-app-frontend/assets/93608114/ade8e8f5-48a5-4388-a422-d51368f067d0">
+</div>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+INVALID URL IMAGE:
+<br/>
+<br/>
+<img width="100%" alt="Screenshot 2023-07-22 170648" src="https://github.com/HuzaifaBanegar/url-checker-app-frontend/assets/93608114/8b32d011-8a1d-4fe9-91f2-84ca62ed1a54">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+TOO MANY REQUESTS:
+<br/>
+<br/>
+<img width="100%" alt="Screenshot 2023-07-22 171037" src="https://github.com/HuzaifaBanegar/url-checker-app-frontend/assets/93608114/0b3c5903-2a14-4b30-a082-8577c2c6fdfe">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
