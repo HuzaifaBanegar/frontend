@@ -1,7 +1,7 @@
 **URL-CHECKER APP**
 This is a small project created in duration of 1 day. The project was given by quickblicks.io in order to check my coding competency in 2nd round of interview.
 
-For Backend code you can check the rep:  
+For Backend code you can check the rep:  https://github.com/HuzaifaBanegar/url-checker-app-backend.git
 
 The project is created using Following Tech Stacks: 
 1. Client side ->Recat
