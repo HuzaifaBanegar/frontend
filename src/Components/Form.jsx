@@ -37,7 +37,7 @@ export const Form = (props) => {
   };
 
   const checkStatus = async (url) => {
-    const response = await axios.get(`http://localhost:5000/status?host=${url}`);
+    const response = await axios.get(`https://url-checker-host.onrender.com/status?host=${url}`);
     
     if(response.data.data==='200'){
         // console.log(response.data);
@@ -51,7 +51,7 @@ export const Form = (props) => {
   };
 
   const checkSSL = async (url) => {
-    const response = await axios.get(`http://localhost:5000/ssl?host=${url}`);
+    const response = await axios.get(`https://url-checker-host.onrender.com/ssl?host=${url}`);
     // console.log(response)
     if(response.data===true){
         handleData({show:true,key:"Valid SSL Certificate ", value:true})
@@ -64,7 +64,7 @@ export const Form = (props) => {
   };
 
   const checkRobert = async () => {
-    const response = await axios.get(`http://localhost:5000/readFile`);
+    const response = await axios.get(`https://url-checker-host.onrender.com0/readFile`);
     
     if (response) {
       handleData({show:true,key:"Robert.txt File available?", value:true})
