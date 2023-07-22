@@ -64,7 +64,7 @@ export const Form = (props) => {
   };
 
   const checkRobert = async () => {
-    const response = await axios.get(`https://url-checker-host.onrender.com0/readFile`);
+    const response = await axios.get(`https://url-checker-host.onrender.com/readFile`);
     
     if (response) {
       handleData({show:true,key:"Robert.txt File available?", value:true})
