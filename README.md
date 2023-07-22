@@ -4,7 +4,7 @@ This is a small project created in duration of 1 day. The project was given by q
 For Backend code you can check the rep:  https://github.com/HuzaifaBanegar/url-checker-app-backend.git
 
 The project is created using Following Tech Stacks: 
-1. Client side ->Recat
+1. Client side ->React
 2. Styling-> Tailwind, Material UI
 3. Backend -> NodeJs, Express
 4. Deployment -> **Netlify** for Frontend and **Render** for Backend
