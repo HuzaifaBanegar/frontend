@@ -34,7 +34,7 @@ Desktop Version & Mobile Version
 
 
 <div style="display:flex">
-  <img width="70%" alt="Screenshot 2023-07-22 170611" src="https://github.com/HuzaifaBanegar/url-checker-app-frontend/assets/93608114/12ebd9f1-686e-48c5-b0b2-0359e9601f9e">
+  <img width="50%" alt="Screenshot 2023-07-22 170611" src="https://github.com/HuzaifaBanegar/url-checker-app-frontend/assets/93608114/12ebd9f1-686e-48c5-b0b2-0359e9601f9e">
   <img height="100% alt="Screenshot 2023-07-22 170621" src="https://github.com/HuzaifaBanegar/url-checker-app-frontend/assets/93608114/d5cd6e2d-689c-4b77-b20e-1212a84ca683">
 </div>
 
@@ -43,7 +43,7 @@ Desktop Version & Mobile Version
 
 
 <div style="display:flex"> 
-  <img width="70%" alt="Screenshot 2023-07-22 170538" src="https://github.com/HuzaifaBanegar/url-checker-app-frontend/assets/93608114/f9b917c8-61e4-46a5-9ac8-cd4ec73bd482">
+  <img width="50%" alt="Screenshot 2023-07-22 170538" src="https://github.com/HuzaifaBanegar/url-checker-app-frontend/assets/93608114/f9b917c8-61e4-46a5-9ac8-cd4ec73bd482">
   <img height="100%" alt="Screenshot 2023-07-22 170553" src="https://github.com/HuzaifaBanegar/url-checker-app-frontend/assets/93608114/ade8e8f5-48a5-4388-a422-d51368f067d0">
 </div>
 
