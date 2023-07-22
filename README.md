@@ -35,7 +35,7 @@ Desktop Version & Mobile Version
 
 <div style="display:flex">
   <img width="50%" alt="Screenshot 2023-07-22 170611" src="https://github.com/HuzaifaBanegar/url-checker-app-frontend/assets/93608114/12ebd9f1-686e-48c5-b0b2-0359e9601f9e">
-  <img height="50% alt="Screenshot 2023-07-22 170621" src="https://github.com/HuzaifaBanegar/url-checker-app-frontend/assets/93608114/d5cd6e2d-689c-4b77-b20e-1212a84ca683">
+  <img height="50%" alt="Screenshot 2023-07-22 170621" src="https://github.com/HuzaifaBanegar/url-checker-app-frontend/assets/93608114/d5cd6e2d-689c-4b77-b20e-1212a84ca683">
 </div>
 
 ERROR IMAGE:
