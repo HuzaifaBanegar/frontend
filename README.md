@@ -22,7 +22,7 @@ C)**Content of Robert.txt:** This option should check whether the content of rob
 4. **Rate Limiter:** The API should include a rate limiter that limits the user to three API calls per five minutes to prevent excessive use.
 
 Simple Method of use:
-1. NOTE: PLEASE INSTALL **ALLOW CORS** extension in your Chrome browser(preferable)
+1. Its preferrable to install **ALLOW CORS** extension in your Chrome browser
 2. Go to the netlify link: https://url-checker-app.netlify.app
 4. Try out the app. Please let me know if it can be improved in any ways :)
 
